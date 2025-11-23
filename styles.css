@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+body {
+  background: #f4f4f4;
+  color: #222;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+.header h1 {
+  font-size: 32px;
+  color: #0a6847;
+  margin-bottom: 10px;
+}
+.surah {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  direction: rtl;
+}
+.surah h2 {
+  color: #0a6847;
+  margin-bottom: 10px;
+}
+.surah p {
+  font-size: 20px;
+  line-height: 2;
+  color: #333;
+}
+.play-btn {
+  display: inline-block;
+  background: #0a6847;
+  color: white;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.play-btn:hover {
+  background: #084f34;
+}
+.surah-list {
+  text-align: center;
+  margin: 20px auto;
+}
+.surah-list button {
+  background: #0a6847;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.surah-list button:hover {
+  background: #084f34;
+}
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  color: #555;
+}
